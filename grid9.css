@@ -1,0 +1,54 @@
+.border {
+    border: 3px solid tomato;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow:  0 0 5px tomato;
+    background-color: #444444;
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12,minmax(12px,33.33px));
+    place-content: center;
+}
+
+.nav {
+    margin-bottom: 15px;
+    display: grid;
+    place-content: center;
+    grid-auto-flow: column;
+}
+
+.nav a{
+    background-color: bisque;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding:5px 20px;
+    margin-left: 8px;
+}
+
+.a {
+    grid-column: 1/ span 6;
+}
+
+.b {
+    grid-column: 7/ span 6;
+}
+
+.c {
+    grid-column: 1/span 3;
+}
+
+.d {
+    grid-column: 4/span 9;
+}
+
+.e {
+    grid-column: 1/span 12;
+}

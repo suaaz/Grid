@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-template-columns: 5em 100px 100px;
+    grid-template-rows: 100px auto;
+    gap: 10px;
+    background-color: antiquewhite;
+    padding: 1em;
+    max-width: 30rem;
+}
+
+.box {
+    background-color: bisque;
+    padding: 10px;
+}
+
+
+.href{
+    background-color: bisque;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding:5px 20px;
+}
+
+
+
